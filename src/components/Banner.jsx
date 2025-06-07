@@ -13,9 +13,7 @@ const Banner = () => {
 
         <h2 className='text-2xl font-bold'>Beginner-Friendly Design Code</h2>
          <span> – Try it on Expo</span>
-        <p>I’ve created a free design template using React Native and Tailwind CSS. A full React (MERN) stack application is coming soon!
-
-</p>
+        <p>I’ve created a design template using React Native and Tailwind CSS. A full React (MERN) stack application is coming soon!</p>
 
 
             </div>
