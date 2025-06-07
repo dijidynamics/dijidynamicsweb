@@ -21,7 +21,7 @@ const Mainpage = () => {
   onClick={() => window.open('https://snack.expo.dev/@dijidynamics/profile-page', '_blank')}
   className="mt-2 bg-blue-200 hover:bg-blue-300 text-black p-2 rounded-lg border border-[#ddd] focus:ring-2 focus:ring-blue-300"
 >
-🚀 View Code on Expo Snack
+🚀 View Code on Expo Snack!
 </button>
 
 </div>
@@ -37,7 +37,7 @@ const Mainpage = () => {
   onClick={() => window.open('https://snack.expo.dev/@dijidynamics/rn-bottom-tabs', '_blank')}
   className="mt-2 bg-blue-200 hover:bg-blue-300 text-black p-2 rounded-lg border border-[#ddd] focus:ring-2 focus:ring-blue-300"
 >
-🚀 View Code on Expo Snack
+🚀 View Code on Expo Snack!
 </button>
 
 </div>
@@ -53,7 +53,7 @@ const Mainpage = () => {
   onClick={() => window.open('https://snack.expo.dev/@dijidynamics/crm-dashboard-with-chart', '_blank')}
   className="mt-2 bg-blue-200 hover:bg-blue-300 text-black p-2 rounded-lg border border-[#ddd] focus:ring-2 focus:ring-blue-300"
 >
-🚀 View Code on Expo Snack
+🚀 View Code on Expo Snack!
 </button>
 
 </div>
@@ -69,7 +69,7 @@ const Mainpage = () => {
   onClick={() => window.open('https://snack.expo.dev/@dijidynamics/crm-dashboard-with-chart', '_blank')}
   className="mt-2 bg-blue-200 hover:bg-blue-300 text-black p-2 rounded-lg border border-[#ddd] focus:ring-2 focus:ring-blue-300"
 >
-🚀 View Code on Expo Snack
+🚀 View Code on Expo Snack!
 </button>
 
 </div>
