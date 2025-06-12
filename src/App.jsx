@@ -9,6 +9,7 @@ import Banner from './components/Banner'
 import Footer from './Footer'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Docs from './Docs'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +24,7 @@ function App() {
         <Route path="/rn-templates" element={<RNTemplates />} />
         <Route path="/tailwind" element={<TailwindPage />} />
         <Route path="/mern" element={<MernPage />} />
+        <Route path="/docs" element={<Docs />} />
     </Routes>
     <Footer />
     </Router>

@@ -37,6 +37,8 @@ const Navbar = () => {
           <Link to="/rn-templates" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">RN Templates</Link>
             <Link to="/tailwind"  className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Tailwind</Link>
            <Link to="/mern" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">MERN</Link>
+           <Link to="/docs" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Docs</Link>
+       
           </div>
         </div>
       </div>
