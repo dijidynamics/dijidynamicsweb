@@ -14,6 +14,7 @@ import step14 from '/step14.jpg'
 import step16 from '/step16.jpg'
 import step17 from '/step17.jpg'
 import step18 from '/step18.jpg'
+import aws01 from '/aws-01.jpg'
 const Docs = () => {
   return (
     <div className='bg-[#f2f6f8]'>
@@ -83,6 +84,17 @@ http://localhost:5174</span>"</p>
         
 
     </div>
+ <div class="grid  grid-cols-1 md:grid-cols-2 gap-4 pb-8 ">
+      <div style={{backgroundColor:'#fff', borderWidth:1, borderRadius:5,marginTop:15,marginLeft:5, marginRight:5, borderColor:'#cae4f1', padding:20}}>  
+        <h1 style={{fontWeight:'bold'}} ><br></br> Creating an AWS Account for test</h1>
+        <p>https://signin.aws.amazon.com/signup?request_type=register</p>
+   <p><img src={aws01} className='pb-8'  /> </p>
+     </div>
+  <div></div>
+ </div>
+
+
+
 
       
 

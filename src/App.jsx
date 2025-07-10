@@ -7,6 +7,7 @@ import TailwindPage from './TailwindPage'
 import MernPage from './MernPage'
 import Banner from './components/Banner'
 import Footer from './Footer'
+import Github from './Github'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Docs from './Docs'
@@ -25,6 +26,8 @@ function App() {
         <Route path="/tailwind" element={<TailwindPage />} />
         <Route path="/mern" element={<MernPage />} />
         <Route path="/docs" element={<Docs />} />
+        <Route path="/github" element={<Github />} />
+
     </Routes>
     <Footer />
     </Router>
