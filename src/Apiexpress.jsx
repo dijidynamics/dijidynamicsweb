@@ -106,6 +106,11 @@ app.listen(3001, () => {
         <p>
              <img src={api03} className='rounded-xl' /> 
         </p>
+
+
+        </div>
+        
+        <div style={{backgroundColor:'#fff', borderWidth:1, borderRadius:5,marginTop:15,marginLeft:5, marginRight:5, borderColor:'#cae4f1', padding:20}}> 
         <p>
 <br></br><span style={{fontWeight:'bold'}}>Step 4: Configure package.json to Run the Server</span><br></br>
  <span style={{fontStyle:'italic'}}>File Location: /server/package.json</span>
@@ -118,14 +123,12 @@ app.listen(3001, () => {
 <p>
   <img src={api05} className='rounded-xl' /> 
 </p>
-<p><br></br>
+
+  <p><br></br>
  <span style={{fontWeight:'bold'}}>Step 5: Run the server using</span> <span style={{color:'blue'}}>'npm start'. </span><br></br>
  The expected result will appear as shown in the following screenshot:
 <img src={api06} className='rounded-xl' /> 
 </p>
-        </div>
-        
-        <div style={{backgroundColor:'#fff', borderWidth:1, borderRadius:5,marginTop:15,marginLeft:5, marginRight:5, borderColor:'#cae4f1', padding:20}}> 
    <p><br />
   <span style={{ fontWeight: 'bold' }}>Step 6: Connect to MongoDB Using Mongoose</span>
 </p>
