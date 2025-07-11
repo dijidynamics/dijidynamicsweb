@@ -22,8 +22,8 @@ const Banner = () => {
             </div>
              <div className='pt-8'>
             <Link to="/docs"><span class="underline">1. Vite React + Tailwind CSS 4.0 Setup</span></Link><br></br>
-            <Link to="/github"><span class="underline">2. How to Connect Vite React App with GitHub Using VS Code</span></Link>
-
+            <Link to="/github"><span class="underline">2. How to Connect Vite React App with GitHub Using VS Code</span></Link><br></br>
+             <Link to="/api"><span class="underline">3. Create API with MongoDB, Node.js, and Express</span></Link>
              </div>
         </div>
 
