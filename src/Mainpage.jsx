@@ -3,6 +3,8 @@ import portfolio01 from '/portfolio-01.png'
 import portfolio02 from '/portfolio-02.png'
 import portfolio04 from '/portfolio-04.png'
 import portfolio05 from '/portfolio-05.png'
+import { Link } from 'react-router-dom';
+
 const Mainpage = () => {
   return (
 <div className='bg-[#f2f6f8]'>    
@@ -75,6 +77,13 @@ const Mainpage = () => {
 </div>
 
 </div>    
+<div className="text-center mt-8">
+  <Link to="/rn-templates">
+    <button className="bg-white hover:bg-blue-100 text-blue-600 font-semibold py-2 px-5 rounded-lg border border-blue-300 shadow-sm transition-all duration-200">
+      🔍 View All Templates
+    </button>
+  </Link>
+</div>
 </div>
 </div>
   )
