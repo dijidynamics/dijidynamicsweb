@@ -3,7 +3,7 @@ import portfolio01 from '/portfolio-01.png'
 import portfolio02 from '/portfolio-02.png'
 import portfolio04 from '/portfolio-04.png'
 import portfolio05 from '/portfolio-05.png'
-import portfolio06 from '/portfolio-05.png'
+import portfolio06 from '/portfolio-06.png'
 function RNTemplates() {
     return (
         <div className='bg-[#f2f6f8]'>
@@ -78,7 +78,7 @@ function RNTemplates() {
    <div class="grid  grid-cols-1 md:grid-cols-4 gap-4 pb-8 ">
          <div className='shadow-xl/20 border-3 border-white rounded-l p-2 align-middle items-center text-center rounded-xl'>
                         <img src={portfolio06} className='pt-8' />
-                        <p className='pt-4 pb-4'>Profile screen with user info</p>
+                        <p className='pt-4 pb-4'>Navigation Drawer Side Menu</p>
 
                         {/* <button class="bg-blue-100 hover:bg-blue-100 text-black p-2 rounded-lg border border-[#ddd] focus:ring-2 focus:ring-blue-300">
               View Code
