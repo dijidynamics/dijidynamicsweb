@@ -92,11 +92,18 @@ const Mainpage = () => {
            <div class="grid  lg:grid-cols-2 md:grid-cols-4 gap-4 pb-8 ">
                <div className='shadow-xl/20 border-3 border-white rounded-l p-2 align-middle items-center text-center rounded-xl'><img src={web02} className='pt-8' />
                <button
-  onClick={() => window.open('https://snack.expo.dev/@dijidynamics/food-app-dashboard', '_blank')}
+  onClick={() => window.open('https://github.com/dijidynamics/dashboard01-tailwindcss/tree/main/client', '_blank')}
   className="mt-2 bg-blue-200 hover:bg-blue-300 text-black p-2 rounded-lg border border-[#ddd] focus:ring-2 focus:ring-blue-300"
 >
 🚀 View Code on Github!
-</button></div>
+</button>
+    <button
+  onClick={() => window.open('https://www.dijidynamics.in/', '_blank')}
+  className="mt-2 bg-blue-200 hover:bg-blue-300 text-black p-2 rounded-lg border border-[#ddd] focus:ring-2 focus:ring-blue-300"
+>
+🚀 View Demo!
+</button>
+</div>
                 <div className='shadow-xl/20 border-3 bg-[#e9ebed] border-white rounded-l p-2 align-middle items-center text-center rounded-xl'><img src={web01} className='pt-8' /></div>
             </div>
 
