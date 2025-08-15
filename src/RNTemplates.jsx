@@ -97,6 +97,12 @@ function RNTemplates() {
    </div>
 
             </div>
+ <div className='mx-auto max-w-7xl px-2 sm:px-6 lg:px-8'>
+            <div className='grid  grid-cols-2 md:grid-cols-1 gap-4 pb-1'>
+                <div>a</div>
+                <div>b</div>
+            </div>
+            </div>
         </div>
     )
 }

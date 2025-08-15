@@ -3,6 +3,8 @@ import portfolio01 from '/portfolio-01.png'
 import portfolio02 from '/portfolio-02.png'
 import portfolio04 from '/portfolio-04.png'
 import portfolio05 from '/portfolio-05.png'
+import web01 from '/ipad-mobile.jpg'
+import web02 from '/laptop.jpg'
 import { Link } from 'react-router-dom';
 
 const Mainpage = () => {
@@ -84,6 +86,28 @@ const Mainpage = () => {
     </button>
   </Link>
 </div>
+
+ <div >
+  <div><h2 className='font-bold p-4'>Dashboard UI – Built with Tailwind CSS & React</h2></div>
+           <div class="grid  lg:grid-cols-2 md:grid-cols-4 gap-4 pb-8 ">
+               <div className='shadow-xl/20 border-3 border-white rounded-l p-2 align-middle items-center text-center rounded-xl'><img src={web02} className='pt-8' />
+               <button
+  onClick={() => window.open('https://snack.expo.dev/@dijidynamics/food-app-dashboard', '_blank')}
+  className="mt-2 bg-blue-200 hover:bg-blue-300 text-black p-2 rounded-lg border border-[#ddd] focus:ring-2 focus:ring-blue-300"
+>
+🚀 View Code on Github!
+</button></div>
+                <div className='shadow-xl/20 border-3 bg-[#e9ebed] border-white rounded-l p-2 align-middle items-center text-center rounded-xl'><img src={web01} className='pt-8' /></div>
+            </div>
+
+            <div className="text-center mt-8">
+  <Link to="/tailwind">
+    <button className="bg-white hover:bg-blue-100 text-blue-600 font-semibold py-2 px-5 rounded-lg border border-blue-300 shadow-sm transition-all duration-200">
+      🔍 View All Templates
+    </button>
+  </Link>
+</div>
+            </div>
 </div>
 </div>
   )
