@@ -12,6 +12,7 @@ import Github from './Github'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Docs from './Docs'
 import Apiexpress from './Apiexpress'
+import Awssignup from './Awssignup'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,6 +30,7 @@ function App() {
         <Route path="/docs" element={<Docs />} />
         <Route path="/github" element={<Github />} />
         <Route path="/api" element={<Apiexpress />} />
+        <Route path="/awsguide" element={<Awssignup />} />
     </Routes>
     <Footer />
     </Router>

@@ -90,19 +90,32 @@ const Mainpage = () => {
  <div >
   <div><h2 className='font-bold p-4'>Dashboard UI – Built with Tailwind CSS & React</h2></div>
            <div class="grid  lg:grid-cols-2 md:grid-cols-4 gap-4 pb-8 ">
-               <div className='shadow-xl/20 border-3 border-white rounded-l p-2 align-middle items-center text-center rounded-xl'><img src={web02} className='pt-8' />
+               <div className='shadow-xl/20 border-3 border-white rounded-l p-2 align-middle items-center text-center rounded-xl'>
+               
+               <p class="flex items-center gap-2 text-gray-700">
+  Hosted on 
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" 
+       class="w-5 h-5 text-orange-500">
+    <path fill="currentColor" d="M142.8 45.2L87.5 141.1h38.7l-34.9 61.7 99.6-55.2h-38.7l34.9-61.7z"/>
+  </svg>
+  AWS Amplify: 
+  <a href="https://main.d26eyfxyn8p783.amplifyapp.com" 
+     target="_blank" 
+     class="text-blue-600 hover:text-blue-800 underline">
+     https://main.d26eyfxyn8p783.amplifyapp.com
+  </a>
+</p>
+
+
+               <img src={web02} className='pt-8' />
                <button
   onClick={() => window.open('https://github.com/dijidynamics/dashboard01-tailwindcss/tree/main/client', '_blank')}
   className="mt-2 bg-blue-200 hover:bg-blue-300 text-black p-2 rounded-lg border border-[#ddd] focus:ring-2 focus:ring-blue-300"
 >
 🚀 View Code on Github!
 </button>
-    <button
-  onClick={() => window.open('https://www.dijidynamics.in/', '_blank')}
-  className="mt-2 bg-blue-200 hover:bg-blue-300 text-black p-2 rounded-lg border border-[#ddd] focus:ring-2 focus:ring-blue-300"
->
-🚀 View Demo!
-</button>
+
+   
 </div>
                 <div className='shadow-xl/20 border-3 bg-[#e9ebed] border-white rounded-l p-2 align-middle items-center text-center rounded-xl'><img src={web01} className='pt-8' /></div>
             </div>

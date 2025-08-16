@@ -5,10 +5,13 @@ git commit -m "Update React Vite project"
 git push origin main
 
 
+
 cd /var/www/dijidynamicsweb
 git pull origin main
 npm install
 npm run build
 sudo systemctl restart nginx  # (optional)
 
+ - view website config details -
+root@srv691501:/var/www# nano /etc/nginx/sites-available/dijidynamics.in.conf
 */
