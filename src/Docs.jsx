@@ -21,8 +21,10 @@ const Docs = () => {
       <div className='mx-auto max-w-7xl px-2 sm:px-6 lg:px-8'>
     <div class="grid  grid-cols-1 md:grid-cols-2 gap-4 pb-8 ">
 
-        <div style={{backgroundColor:'#fff', borderWidth:1, borderRadius:5,marginTop:15,marginLeft:5, marginRight:5, borderColor:'#cae4f1', padding:20}}>  <h1 style={{fontWeight:'bold'}} ><br></br> Vite React + Tailwind CSS 4.0 Setup</h1>
-      <p><br></br> 1. C:\project-folder&gt;<span style={{fontWeight:'bold', color:'#9c27b0'}}>npm create vite@latest </span><br></br></p>
+        <div style={{backgroundColor:'#fff', borderWidth:1, borderRadius:5,marginTop:15,marginLeft:5, marginRight:5, borderColor:'#cae4f1', padding:20}}> 
+           <h1 style={{fontWeight:'bold'}} ><br></br> Vite React + Tailwind CSS 4.0 Setup</h1>
+npm install vite@6.2.5 --save-dev
+      <p><br></br> 1. C:\project-folder&gt;<span style={{fontWeight:'bold', color:'#9c27b0'}}>npm create vite@latest or </span><br></br></p>
       <p><br></br>2. Enter Project Name:<span style={{fontWeight:'bold', color:'#9c27b0'}}> CRM-Dashboard-01</span><img src={step01} className='rounded-xl' /> </p>
       <p>3. Select <span style={{fontWeight:'bold', color:'#9c27b0'}}>React </span> framework<img src={step02} className='rounded-xl' /> </p>
       <p>4. Select <span style={{fontWeight:'bold', color:'#9c27b0'}}>Javascript</span> <img src={step03} className='rounded-xl' /> </p>
@@ -84,6 +86,52 @@ http://localhost:5174</span>"</p>
         
 
     </div>
+
+
+{/*  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pb-8 ">
+     
+     <div className='grid grid-cols-1 md:grid-cols-2'>
+<div>
+  short cut create page - 'rafce'
+  create compnents folder <br></br>
+  create file - TopNavbar.jsx <br></br>
+              - LeftSidebar.jsx <br></br>
+              - RightPanel.jsx <br></br>
+              - MainContent.jsx <br></br>
+  create pages folder <br></br>
+             - Dashboard.jsx <br></br>
+
+Step 2: npm install react-router-dom <br></br>
+
+Step 3: go to app.js page need to add react router 
+{/* import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; */}
+{/* 
+Step 4: changes in app.js 
+
+step 5: TopNavbar
+<code>
+
+`<nav className="bg-blue-500 flex justify-between h-14 px-4 text-white shadow items-center z-50 relative"></nav></code>
+
+</div>
+<div>
+  test
+</div>
+</div>
+<div>test 2</div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
  <div class="grid  grid-cols-1 md:grid-cols-2 gap-4 pb-8 ">
       <div style={{backgroundColor:'#fff', borderWidth:1, borderRadius:5,marginTop:15,marginLeft:5, marginRight:5, borderColor:'#cae4f1', padding:20}}>  
         <h1 style={{fontWeight:'bold'}} ><br></br> Creating an AWS Account for test</h1>
@@ -93,7 +141,7 @@ http://localhost:5174</span>"</p>
   <div></div>
  </div>
 
-
+ */}
 
 
       

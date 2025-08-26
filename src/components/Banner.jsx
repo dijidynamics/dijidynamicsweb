@@ -22,9 +22,10 @@ const Banner = () => {
             </div>
              <div className='pt-8'>
             <Link to="/docs"><span class="underline">1. Vite React + Tailwind CSS 4.0 Setup</span></Link><br></br>
-            <Link to="/github"><span class="underline">2. How to Connect Vite React App with GitHub Using VS Code</span></Link><br></br>
-             <Link to="/api"><span class="underline">3. Create API with MongoDB, Node.js, and Express</span></Link><br></br>
-             <Link to="/awsguide"><span class="underline">4. How to Deploy a React Static Site to AWS Amplify (Free Plan)</span></Link>
+            <Link to="/bootstrapdoc"><span class="underline">2. Vite React + Bootstrap Setup</span></Link><br></br>
+            <Link to="/github"><span class="underline">3. How to Connect Vite React App with GitHub Using VS Code</span></Link><br></br>
+             <Link to="/api"><span class="underline">4. Create API with MongoDB, Node.js, and Express</span></Link><br></br>
+             <Link to="/awsguide"><span class="underline">5. How to Deploy a React Static Site to AWS Amplify (Free Plan)</span></Link>
              </div>
         </div>
 

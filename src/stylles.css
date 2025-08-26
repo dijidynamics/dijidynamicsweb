@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 /* git add .
 git commit -m "Update React Vite project"
 git push origin main
@@ -15,3 +16,4 @@ sudo systemctl restart nginx  # (optional)
  - view website config details -
 root@srv691501:/var/www# nano /etc/nginx/sites-available/dijidynamics.in.conf
 */
+
