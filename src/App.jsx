@@ -14,6 +14,11 @@ import Docs from './Docs'
 import Apiexpress from './Apiexpress'
 import Awssignup from './Awssignup'
 import Bootstrap from './Bootstrap'
+import Firebase from './Firebase'
+import Rectnativesetup from './Rectnativesetup'
+import Awsec2 from './Awsec2'
+import Firebasesetup from './Firebasesetup'
+import Vuedocs from './Vuedocs'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -33,6 +38,11 @@ function App() {
         <Route path="/api" element={<Apiexpress />} />
         <Route path="/awsguide" element={<Awssignup />} />
         <Route path="//bootstrapdoc" element={<Bootstrap />} />
+        <Route path='/firebase' element={<Firebase />} />
+        <Route path='/reactnativesetup' element={<Rectnativesetup />} />
+        <Route path='/awsec2' element={<Awsec2 />} />
+        <Route path='/firebasetup' element={<Firebasesetup />} />
+        <Route path='/vuedocs' element={<Vuedocs />} />
     </Routes>
     <Footer />
     </Router>

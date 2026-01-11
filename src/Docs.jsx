@@ -24,10 +24,12 @@ const Docs = () => {
         <div style={{backgroundColor:'#fff', borderWidth:1, borderRadius:5,marginTop:15,marginLeft:5, marginRight:5, borderColor:'#cae4f1', padding:20}}> 
            <h1 style={{fontWeight:'bold'}} ><br></br> Vite React + Tailwind CSS 4.0 Setup</h1>
 npm install vite@6.2.5 --save-dev
-      <p><br></br> 1. C:\project-folder&gt;<span style={{fontWeight:'bold', color:'#9c27b0'}}>npm create vite@latest or </span><br></br></p>
-      <p><br></br>2. Enter Project Name:<span style={{fontWeight:'bold', color:'#9c27b0'}}> CRM-Dashboard-01</span><img src={step01} className='rounded-xl' /> </p>
+      <p ><br></br> 1. C:\project-folder&gt;<span style={{fontWeight:'bold', color:'#9c27b0'}}>npm create vite@latest or </span><br></br></p>
+      <p><br></br>2. Enter Project Name:<span style={{fontWeight:'bold', color:'#9c27b0'}}> CRM-Dashboard-01</span>
+      <img src={step01} className='rounded-xl border-2' /> </p>
       <p>3. Select <span style={{fontWeight:'bold', color:'#9c27b0'}}>React </span> framework<img src={step02} className='rounded-xl' /> </p>
-      <p>4. Select <span style={{fontWeight:'bold', color:'#9c27b0'}}>Javascript</span> <img src={step03} className='rounded-xl' /> </p>
+      <p>4. Select <span style={{fontWeight:'bold', color:'#9c27b0'}}>Javascript</span> 
+      <img src={step03} className='rounded-xl border-2 border-amber-500' /> </p>
        <p>5. C:\project-folder&gt;<span style={{fontWeight:'bold', color:'#9c27b0'}}>cd CRM-Dashboard-01 </span>  <br></br> <img src={step05} className='rounded-xl'  /> </p>
            <p> 6. Open Project in VS Code -&gt; 'code .' <br></br>     C:\project-folder&gt;CRM-Dashboard-01&gt; <span style={{fontWeight:'bold', color:'#9c27b0'}}>code .</span> <br></br></p>
            <p><br></br><span style={{fontWeight:'bold'}}>The project has been successfully opened in Visual Studio Code, as shown in the screenshot below.</span></p>
