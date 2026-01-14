@@ -10,10 +10,12 @@ import bootstrap08 from '/bootstrap08.jpg'
 import bootstrap09 from '/bootstrap09.jpg'
 import bootstrap10 from '/bootstrap10.jpg'
 import bootstrap11 from '/bootstrap11.jpg'
+import AdSense from './components/AdSense'
 const Bootstrap = () => {
   return (
         <div className='bg-[#f2f6f8]'>
       <div className='mx-auto max-w-7xl px-2 sm:px-6 lg:px-8'>
+        <AdSense />
     <div class="grid  grid-cols-1 md:grid-cols-2 gap-4 pb-8 ">
 
         <div style={{backgroundColor:'#fff', borderWidth:1, borderRadius:5,marginTop:15,marginLeft:5, marginRight:5, borderColor:'#cae4f1', padding:20}}> 

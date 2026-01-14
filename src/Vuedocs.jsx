@@ -10,10 +10,12 @@ import vue10 from '/vue10.jpg'
 import vue11 from '/vue11.jpg'
 import vue12 from '/vue12.jpg'
 import vue13 from '/vue13.jpg'
+import AdSense from './components/AdSense'
 const Vuedocs = () => {
   return (
     <div>
        <div className='bg-[#f2f6f8]'>
+        <AdSense />
             <div className='mx-auto max-w-7xl px-2 sm:px-6 lg:px-8'>
           <div class="grid  grid-cols-1 md:grid-cols-2 gap-4 pb-8 ">
       
