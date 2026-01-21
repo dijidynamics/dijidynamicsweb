@@ -19,6 +19,9 @@ import Rectnativesetup from './Rectnativesetup'
 import Awsec2 from './Awsec2'
 import Firebasesetup from './Firebasesetup'
 import Vuedocs from './Vuedocs'
+import Odoo from './Odoo'
+import Aboutus from './Aboutus'
+import PrivacyPolicy from './Privacypolicy'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -43,6 +46,9 @@ function App() {
         <Route path='/awsec2' element={<Awsec2 />} />
         <Route path='/firebasetup' element={<Firebasesetup />} />
         <Route path='/vuedocs' element={<Vuedocs />} />
+        <Route path='/odoo' element={<Odoo />} />
+        <Route path='/aboutus' element={<Aboutus />} />
+        <Route path='/privacypolicy' element={<PrivacyPolicy />} />
     </Routes>
     <Footer />
     </Router>

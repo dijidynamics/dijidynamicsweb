@@ -27,8 +27,9 @@ const Banner = () => {
              <Link to="/api"><span class="underline">4. Create API with MongoDB, Node.js, and Express</span></Link><br></br>
              <Link to="/awsguide"><span class="underline">5. How to Deploy a React Static Site to AWS Amplify (Free Plan)</span></Link><br></br>
                <Link to="/vuedocs"><span class="underline">6. Vite Vue + Tailwind CSS 4.0 Setup</span></Link><br></br>
+              {/*    <Link to="/odoo"><span class="underline">7. Odoo Setup</span></Link><br></br>
 
-           {/*  <Link to="/awsec2"><span class="underline">6. How to Deploy backend (MongoDB, Node.js, and Express) for create API  on AWS EC2 </span></Link><br></br>*/}
+          <Link to="/awsec2"><span class="underline">6. How to Deploy backend (MongoDB, Node.js, and Express) for create API  on AWS EC2 </span></Link><br></br>*/}
            {/*  <Link to="/firebasetup"><span class="underline">7. Firebase Authentication setup with React </span></Link>
              <Link to="/firebase"><span class="underline">6. Firebase Authentication with React (Vite)</span> </Link><br></br>
              <Link to="/reactnativesetup"><span class="underline" >7. React Native begineer guide </span></Link>*/} 
