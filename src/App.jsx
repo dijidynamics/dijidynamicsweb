@@ -22,6 +22,7 @@ import Vuedocs from './Vuedocs'
 import Odoo from './Odoo'
 import Aboutus from './Aboutus'
 import PrivacyPolicy from './Privacypolicy'
+import Androidapp from './Androidapp'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -49,6 +50,7 @@ function App() {
         <Route path='/odoo' element={<Odoo />} />
         <Route path='/aboutus' element={<Aboutus />} />
         <Route path='/privacypolicy' element={<PrivacyPolicy />} />
+        <Route path='/androidapp' element={<Androidapp />} />
     </Routes>
     <Footer />
     </Router>

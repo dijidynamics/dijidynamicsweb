@@ -47,6 +47,8 @@ const Navbar = () => {
                 <Link to="/rn-templates" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">RN Templates</Link>
                 <Link to="/tailwind" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Tailwind</Link>
                 <Link to="/mern" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">MERN</Link>
+                  <Link to="/androidapp" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Android APP</Link>
+             
                 <Link to="/docs" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Docs</Link>
               </div>
             </div>
@@ -62,6 +64,8 @@ const Navbar = () => {
             <Link to="/rn-templates" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white" onClick={() => setIsMobileMenuOpen(false)}>RN Templates</Link>
             <Link to="/tailwind" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white" onClick={() => setIsMobileMenuOpen(false)}>Tailwind</Link>
             <Link to="/mern" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white" onClick={() => setIsMobileMenuOpen(false)}>MERN</Link>
+             <Link to="/androidapp" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white" onClick={() => setIsMobileMenuOpen(false)}>Android APP</Link>
+         
             <Link to="/docs" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white" onClick={() => setIsMobileMenuOpen(false)}>Docs</Link>
           </div>
         </div>
