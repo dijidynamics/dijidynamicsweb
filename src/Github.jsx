@@ -10,7 +10,7 @@ import AdSense from './components/AdSense'
 const Github = () => {
   return (
      <div className='bg-[#f2f6f8]'>
-      <AdSense />
+   
       <div className='mx-auto max-w-7xl px-2 sm:px-6 lg:px-8'>
     <div class="grid  grid-cols-1 md:grid-cols-2 gap-4 pb-8 ">
        <div style={{backgroundColor:'#fff', borderWidth:1, borderRadius:5,marginTop:15,marginLeft:5, marginRight:5, borderColor:'#cae4f1', padding:20}}> 

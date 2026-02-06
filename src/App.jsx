@@ -23,6 +23,7 @@ import Odoo from './Odoo'
 import Aboutus from './Aboutus'
 import PrivacyPolicy from './Privacypolicy'
 import Androidapp from './Androidapp'
+import Npmpackages from './Npmpackages'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -51,6 +52,7 @@ function App() {
         <Route path='/aboutus' element={<Aboutus />} />
         <Route path='/privacypolicy' element={<PrivacyPolicy />} />
         <Route path='/androidapp' element={<Androidapp />} />
+        <Route path='/npm' element={<Npmpackages />} />
     </Routes>
     <Footer />
     </Router>

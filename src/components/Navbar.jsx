@@ -50,6 +50,9 @@ const Navbar = () => {
                   <Link to="/androidapp" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Android APP</Link>
              
                 <Link to="/docs" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Docs</Link>
+           <Link to="/npm" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">npm Packages</Link>
+          
+         
               </div>
             </div>
           </div>
