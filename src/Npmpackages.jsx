@@ -45,6 +45,29 @@ function Npmpackages() {
       npx create-react-bootstrap-beginner-starter
     </div>
   </div>
+
+
+    {/* Bootstrap Starter */}
+<div className="bg-gray-50 p-4 rounded-lg border space-y-2">
+  <h3 className="font-semibold text-lg">🚀 Express + Mongoose Starter CLI</h3>
+  <p className="text-gray-600">
+    Scaffolds a beginner-friendly Express API preconfigured with MongoDB (Mongoose), CORS, and Nodemon for fast backend development.
+  </p>
+
+  <a
+    href="https://www.npmjs.com/package/create-express-mongoose-cors-nodemon-starter"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 hover:text-blue-800 underline font-medium"
+  >
+    View on NPM →
+  </a>
+
+  <div className="bg-black text-green-400 font-mono p-3 rounded">
+    npx create-express-mongoose-cors-nodemon-starter
+  </div>
+</div>
+
 </div>
     </div>
   )

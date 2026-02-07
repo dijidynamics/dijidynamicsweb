@@ -102,7 +102,7 @@ go to visual sudio code click view click terminal
     padding: 25,
     lineHeight: 1.8,
   }}
->test</div>
+>coming soon</div>
                      </div>
                      </div>
                      </div>
