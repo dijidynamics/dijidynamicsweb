@@ -86,6 +86,7 @@ http://localhost:5174</span>"</p>
                      <span style={{fontWeight: 'bold'}}>Tailwind CSS styles are working fine, as shown in the screenshot below.</span>
                        <img src={step16} className='rounded-2xl'  />
            </p>
+           <p>npm install react-router-dom</p>
            </div>
         
 

@@ -87,7 +87,7 @@ function Androidapp() {
     </p>
 
     <a
-      href="https://play.google.com/store/apps/details?id=com.dijidynamics.buyzzo"
+      href="https://play.google.com/store/apps/details?id=com.dijistoreonline.googleadmobapp"
       target="_blank"
       rel="noopener noreferrer"
       className="inline-block mb-4 text-blue-600 hover:underline font-medium"
